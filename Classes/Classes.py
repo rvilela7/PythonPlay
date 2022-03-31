@@ -2,7 +2,7 @@
 
 class Book:
     def __init__(self, title, author, price): #everything is public
-        self._title = title
+        self._title = title #properties that start with _ are a hint that they are private
         self._author = author
         self._price = price
     @property
